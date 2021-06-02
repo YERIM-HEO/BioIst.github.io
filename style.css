@@ -175,8 +175,8 @@ img{
         font-size: 24px;
     }
     .navbar_menu:active {
-        /* display: flex; */
-        display: none;
+        display: flex;
+
     }
 
 }
