@@ -148,7 +148,9 @@ img{
     }
     #paragraph{
     width: 80%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    padding-left: 10%;
+    padding-right: 10%;
     }
     .navbar {
         flex-direction: column;
