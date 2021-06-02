@@ -6,12 +6,12 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     position: fixed;
     z-index: 500;
     overflow: hidden;
-    width: 80%;
+    width: 85%;
     background-color: white;
 }
 #menu_home {
