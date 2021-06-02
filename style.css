@@ -14,6 +14,12 @@ body{
     width: 80%;
     background-color: white;
 }
+#menu_home {
+    color: black;
+}
+#major, #history{
+    display: none;
+}
 .navbar_title{
     font-size: 40px;
 }
@@ -22,17 +28,12 @@ body{
     list-style: none;
     padding-left: 0;
 }
-.navbar_menu li .menu{
+.menu{
     margin-left: 10px;
     margin-right: 10px;
     color: grey;
 }
-#menu_home {
-    color: black;
-}
-#major, #history{
-    display: none;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -169,6 +170,9 @@ img{
         font-size: 24px;
     }
     .navbar_menu:active {
+        position: relative;
         display: flex;
+        z-index: 200;
     }
+
 }
