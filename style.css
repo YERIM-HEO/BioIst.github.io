@@ -129,6 +129,7 @@ img{
     }
     .float-image {
         width: 300px;
+        margin-bottom: 20px;
     }
     p{
         font-size: 14px;
