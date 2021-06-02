@@ -27,7 +27,9 @@ body{
     margin-right: 10px;
     color: grey;
 }
-
+#menu_home {
+    color: black;
+}
 a{
     text-decoration: none;
     color: black;
