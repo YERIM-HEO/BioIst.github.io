@@ -1,35 +1,153 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>YERIM HEO | Kangwon National University</title>
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
-    <body>
-        <nav>
-            <div class="nav-bar">
-                <a href="../pages/home.html" id="main-title">YERIM HEO</a>
-                <a href="../pages/home.html" id = "main-page" class="menu">HOME</a>
-                <a href="../pages/major.html" class="sub-page menu">MAJOR</a>
-                <a href="../pages/history.html" class="sub-page menu">HISTORY</a>
-                <a href="../pages/favorite.html" class="sub-page menu">FAVORITE</a>
-                <a href="../pages/interest.html" class="sub-page menu">INTEREST</a>
-            </div>
-        </nav>
-        <div id="blank"></div>
-        <div id = "paragraph">
-            <img src= "../images/home.jpg">
-            <ul type = "square">
-                <li><b>ABOUT ME</b></li>
-                <p>저는 <a href="#" class="paragraph-link">시스템면역과학과</a>에 재학중인 4학년 허예림 입니다. 2학년때부터 <a href="#" class="paragraph-link">바이오소프트웨어 연계전공</a> 수업을 듣고 컴퓨터에 흥미가 생겨
-                현재는 컴퓨터를 통해서 유전체 정보에서 알 수 있는, 사용할 수 있는 데이터들을 찾아내는  <a href="#" class="paragraph-link">생물정보학 실험실</a>에서 연구를 하고 있습니다. 
-            </p>
-                <li><b>CONTACT</b></li>
-                <p>E-MAIL : yerim62345@kangwon.ac.kr</p>
-
-            </ul>
-            
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>YERIM HEO | Kangwon National University</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/126481ccee.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_title">
+            <i class="fas fa-dna"></i>
+            <a href="#home" id="main-title">YERIM HEO</a>
         </div>
-        <footer></footer>
-    </body>
+        <ul class="navbar_menu">
+            <li><a href="#home" class="menu">HOME</a></li> 
+            <li><a href="#major" class="menu" >MAJOR</a></li>
+            <li><a href="#history" class="menu">HISTORY</a></li>
+        </ul>
+        <a href="" class="navbar__tool">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+    <div id="paragraph">
+        <div id="home">
+            <div id="blank"></div>
+            <div class="one-set">
+                <img class= "float-image" src= "./images/home.jpg">
+                <div class="one-context">
+                    <ul type = "square">
+                        <li><b>ABOUT ME</b></li>
+                        <p>저는 <a href="#" class="paragraph-link">시스템면역과학과</a>에 재학중인 4학년 허예림 입니다. 학부 2학년때부터 <a href="#" class="paragraph-link">바이오소프트웨어 연계전공</a> 수업을 듣고 컴퓨터에 흥미가 생겨
+                        현재는 컴퓨터를 통해서 유전체 정보에서 알 수 있는, 사용할 수 있는 데이터들을 찾아내는  <a href="#" class="paragraph-link">생물정보학 실험실</a>에서 연구를 하고 있습니다. 실험실에서 매달 논문 읽고 발표를 함으로써 
+                        저의 데이터 해석 능력도 점점 증가하고 있고, 컴퓨터 다루는 것도 늘고 있음을 느끼고 있습니다. 저의 목표는 대학원 진학하고 나서도 유전체 데이터 분석에서 그치는 것이 아니라 프로그래밍 능력도 더 발전 시키는 것입니다.</p>
+                        <li><b>읽어본 논문..</b>
+                            <ul>
+                                <a href="#" class="paragraph-link"><li>An extracellular matrix-related prognostic and predictive indicator for early-stage non-small cell lung cancer</li></a>
+                                <a href="#" class="paragraph-link"><li>Tumor and Microenvironment Evolution during Immunotherapy with Nivolumab</li></a>
+                                <a href="#" class="paragraph-link"><li>MicroRNAs Induced During Adipogenesis that Accelerate Fat Cell Development Are Downregulated in Obesity</li></a>
+                                <a href="#" class="paragraph-link"><li>MiR‑125b‑2 knockout increases high-fat diet-induced fat accumulation and insulin resistance</li></a>
+                            </ul>
+                        </li>
+                        <p></p>
+                        <li><b>CONTACT</b></li>
+                        <p>E-MAIL : yerim62345@kangwon.ac.kr</p>
+                    </ul>
+                <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div id="major">
+            <div id="blank"></div>
+            <div class="one-set">
+                <a href="https://si.kangwon.ac.kr/bbs/content.php?co_id=sub01_1"><img class= "float-image" src= "./images/SI.PNG"></a>
+                <h3>SYSTEMS IMMUNOLOGY</h3>
+                <p>저의 본 전공인 시스템면역과학과는 면역에 관여하는 모든 세포 및 단백질들의 기능이 밝혀짐에 따라 이들의 상호작용을 종합적으로 연구하는 학문입니다. 
+                    본 전공에서는 기존의 세포 혹은 개체 수준의 모든 생명현상을 이해하고, 면역에 관여하는 모든 세포 혹은 단백질들의 역할 및 상호작용에 대해 공부합니다. 
+                또한 상호작용을 익히고 나면, 암이 생기는 원인, 기작을 이해하고 암을 치료하기 위한 항체가 어떤 원리로 작용하는지, 실제 산업계, 제약회사에서 약을 어떻게 제조하는지에 관한 지식도 얻을 수 있습니다. </p>
+                <p><ul><li>전공 과목 :  유기화학, 유전학, 미생물학, 인체생리학, 분자생명공학, 기초세포생물학, 암생물학, 면역학, 실험동물조직검사학, 생물물리화학방법론</li>
+                <li>졸업 후 진로 : 제약회사, 연구소로 진출하여 항체치료제, 단백질 치료제, 백신, 줄기세포 치료제 등의 개발에 많은 기여할 것으로 전망</li></p>
+                
+                <h3>BIOSOFTWARE</h3>
+                <p>바이오소프트웨어 연계전공은 생물학 전반 기초 및 유전체 지식과 바이오 데이터베이스 및 소프트웨어 활용능력, 전산언어를 활용한 소프트웨어 개발능력을 통해 차세대 유전체 기반 의약학 분야 학계, 산업계, 
+                    연구분야로 진출할 수 있는 인재를 양성하기 위해 만들어진 학과 입니다. 수업에서 생물학 지식 뿐만아니라 유전체에 관련된 지식, 유전체 데이터베이스를 다루는 능력, Linux나 Python, R과 같이 유전체 데이터 분석에
+                    필요한 운영체제, 또는 컴퓨터 언어를 배움으로써 발전하고 있는 생물정보학 분야의 지식을 학부과정에서 더 알아갈 수 있는 기회를 만들어주는 전공입니다. </p>
+                <p><ul><li>전공 과목 :  유전학, 분자생물학, 바이오데이터베이스, 생물정보학, 웹프로그래밍, 문제해결 프로그래밍, 기계학습, 데이터 마이닝, 인공지능, 알고리즘</li>
+                        <li>졸업 후 진로 : 유전체 데이터 분석회사, 유전체 데이터 생산회사, 유전체 데이터 분석 기반 연구소 연구원, 대학원 진학이 가능하다.</li></p>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div id="history">
+            <div id="blank"></div>
+            <div class="one-set">
+                <div class="float">
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/1semesterMT.jpg"></div>
+                        <div class="date">
+                            <h3>2018.03.09</h3>
+                            <p>입학 후 처음 대학교 행사(OT)</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/freiendsMT.jpg"></div>
+                        <div class="date">
+                            <h3>2018.05.18</h3>
+                            <p>처음이자 마지막이었던 동기MT</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/2semesterMT.jpg"></div>
+                        <div class="date">
+                            <h3>2018.09.14</h3>
+                            <p>2학기 의생명공학과에서 MT</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/mountain.jpg"></div>
+                        <div class="date">
+                            <h3>2018.10.09</h3>
+                            <p>의생명 공학과 선배들과 문배마을 등산..</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/studentcouncil.jpg"></div>
+                        <div class="date">
+                            <h3>2019.03.09</h3>
+                            <p>9대 학생회 첫 단체사진</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/outside.jpg"></div>
+                        <div class="date">
+                            <h3>2019.04.05</h3>
+                            <p>시스템면역과학과 야유회 "무궁화 꽃이 피었습니다!"</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/festival.jpg"></div>
+                        <div class="date">
+                            <h3>2019.09.19</h3>
+                            <p>강원대학교 대동제 행사 참여하면서 돌아다니기!!</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/ob.gif"></div>
+                        <div class="date">
+                            <h3>2019.11.10</h3>
+                            <p>TRIGGER OB전</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/ob.jpg"></div>
+                        <div class="date">
+                            <h3>2019.11.10</h3>
+                            <p>TRIGGER OB전</p>
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div><img  class = "history-image" src="./images/immunologies.jpg"></div>
+                        <div class="date">
+                            <h3>2019.12.19</h3>
+                            <p>제 9회 시스템 면역인의 밤</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
