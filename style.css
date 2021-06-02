@@ -30,6 +30,9 @@ body{
 #menu_home {
     color: black;
 }
+#major, #history{
+    display: none;
+}
 a{
     text-decoration: none;
     color: black;
