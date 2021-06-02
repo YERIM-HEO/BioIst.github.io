@@ -165,7 +165,7 @@ img{
         right: 32px;
         font-size: 24px;
     }
-    .navbar__tool:active {
-        display: none;
+    .navbar_menu:active {
+        display: flex;
     }
 }
